@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin's signup</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="hero-container">
-        <img class="background-img" src="https://images.unsplash.com/photo-1675790931915-b9743f67184b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="placeholder">
-        <div class="behind-logo"></div>
-        <div class="logo-and-header">
+        <img class="background-img" src="./mos-design-hlPB9IUEq-4-unsplash.jpg" alt="placeholder">
+        <div class="logo-text-container">
+            <div class="behind-logo"></div>
             <img src="./odin-lined.png" alt="logo">
-            <h1>ODIN</h1>
-        </div>
+            <span class="logo-text">ODIN</span>
+    </div>
+    <span class="photo-credit">Photo by <a href="https://unsplash.com/@mosdesign">Mos Design</a></span>
     </div>
         <div class="form-column">
             <h1>This is not a real online service! If you want it to be a real service, sign up for our weekly mail subscription. We will send amazing pictures of Odin in Japan!</h1>
@@ -26,16 +28,16 @@
                     <div class="left-column">
                         <label for="fname">First Name</label>
                         <input id="fname" type="text">
-                        <label for="lname">Last Name</label>
-                        <input id="lname" type="text">
-                        <label for="email">Email</label>
+                        <label for="email">Email</label> 
                         <input id="email" type="email">
-                    </div>
-                    <div class="right-column">
-                        <label for="phone-number">Phone Number</label>
-                        <input id="phone-number" type="tel">
                         <label for="password">Password</label>
                         <input id="password" type="password">
+                    </div>
+                    <div class="right-column">
+                        <label for="lname">Last Name</label>
+                        <input id="lname" type="text">
+                        <label for="phone-number">Phone Number</label>
+                        <input id="phone-number" type="tel">
                         <label for="confirm-password">Confirm Password</label>
                         <input id="confirm-password" type="password">
                     </div>
