@@ -62,7 +62,7 @@ img[alt="logo"] {
 
 .photo-credit {
     position: absolute;
-    bottom: 0;
+    bottom: 32px;
     left: 30%;
     color: white;
 }
