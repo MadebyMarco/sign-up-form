@@ -21,36 +21,49 @@
         <div class="form-column">
             <h1>This is not a real online service! If you want it to be a real service, sign up for our weekly mail subscription. We will send amazing pictures of Odin in Japan!</h1>
             <h1>No it is not!</h1>
-                <form action="" method="post">
+                <form class="form1" action="" method="post">
             <div class="columns">
             <h2>Let's do this!</h2>
                 <div class="input-columns">
                     <div class="left-column">
-                        <label for="fname">First Name</label>
-                        <input id="fname" type="text">
-                        <label for="email">Email</label> 
-                        <input id="email" type="email">
-                        <label for="password">Password</label>
-                        <input id="password" type="password">
+                        <div class="form-input-container">
+                            <label for="fname">First Name</label>
+                            <input id="fname" name="" type="text">
+                        </div>
+                        <div class="form-input-container">
+                            <label for="email">Email</label>
+                            <input id="email" name="" type="email">
+                        </div>
+                        <div class="form-input-container">
+                            <label for="password">Password</label>
+                            <input id="password" name="" type="password">
+                            <span class="not-valid-text">* Passwords do not match</span>
+                        </div>
                     </div>
                     <div class="right-column">
-                        <label for="lname">Last Name</label>
-                        <input id="lname" type="text">
-                        <label for="phone-number">Phone Number</label>
-                        <input id="phone-number" type="tel">
-                        <label for="confirm-password">Confirm Password</label>
-                        <input id="confirm-password" type="password">
+                        <div class="form-input-container">
+                            <label for="lname">Last Name</label>
+                            <input id="lname" name="" type="text">
+                        </div>
+                        <div class="form-input-container">
+                            <label for="phone-number">Phone Number</label>
+                            <input id="phone-number" name="" type="tel">
+                        </div>
+                        <div class="form-input-container">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input id="confirm-password" name="" type="password">
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="bottom-container">
+                <button>Create Account</button>
+                <p>Already have an account?<span> Log in</span></p>
             </div>
                 </form>
                 
                 
 
-    <div class="bottom-container">
-        <button>Create Account</button>
-        <p>Already have an account?<span> Log in</span></p>
-    </div>
         </div>
         
 </html>
